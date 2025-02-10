@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    background: #2d2d2d;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+#drawingBoard {
+    background: #000000;
+    cursor: crosshair;
+    border-radius: 8px;
+    touch-action: none;
+}
+
+.controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #4a4a4a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #5a5a5a;
+}
+
+.boards {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#outputBoard {
+    background: #000000;
+    border-radius: 8px;
+}
+
+.prediction {
+    margin-top: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+} 
